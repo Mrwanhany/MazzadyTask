@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (5.10.2)
+  - Pageboy (4.2.0)
+  - SDWebImage (5.21.0):
+    - SDWebImage/Core (= 5.21.0)
+  - SDWebImage/Core (5.21.0)
+  - Tabman (3.2.0):
+    - Pageboy (~> 4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Pageboy (~> 4.2)
+  - SDWebImage (~> 5.0)
+  - Tabman (~> 3.2)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Pageboy
+    - SDWebImage
+    - Tabman
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  Pageboy: 7f7886f61c76633df635861bf7839caf2cabdb3e
+  SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
+  Tabman: 49f9181a2bfe5c29d002864dac2de8e0b7ea9180
+
+PODFILE CHECKSUM: 3442ee93e53c64a278ac7fbc9753626740320e79
+
+COCOAPODS: 1.16.2

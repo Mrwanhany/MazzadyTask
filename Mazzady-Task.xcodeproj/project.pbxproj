@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		705680E9FF313A33981241D2 /* Pods_Mazzady_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A8417690D91B6145D23D39 /* Pods_Mazzady_TaskTests.framework */; };
+		B38DA5C167B1E82F3E6FBA78 /* Pods_Mazzady_Task_Mazzady_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D6878918DC8E3D8D46E386 /* Pods_Mazzady_Task_Mazzady_TaskUITests.framework */; };
+		DAF8E14C5A6122495E8960B0 /* Pods_Mazzady_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED558CBB95696B9C5108245 /* Pods_Mazzady_Task.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6515A7F2DBA763200747A93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6515A602DBA762E00747A93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6515A672DBA762E00747A93;
+			remoteInfo = "Mazzady-Task";
+		};
+		A6515A892DBA763200747A93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6515A602DBA762E00747A93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6515A672DBA762E00747A93;
+			remoteInfo = "Mazzady-Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41DD5A89AAC557DF5F39723A /* Pods-Mazzady-Task-Mazzady-TaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mazzady-Task-Mazzady-TaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-Mazzady-Task-Mazzady-TaskUITests/Pods-Mazzady-Task-Mazzady-TaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54E1D60EDA2682EAB5F570FD /* Pods-Mazzady-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mazzady-Task.debug.xcconfig"; path = "Target Support Files/Pods-Mazzady-Task/Pods-Mazzady-Task.debug.xcconfig"; sourceTree = "<group>"; };
+		56C3F8498C9B479EDB15A569 /* Pods-Mazzady-TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mazzady-TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Mazzady-TaskTests/Pods-Mazzady-TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E8F5D185A7FD956B3BFD535 /* Pods-Mazzady-Task-Mazzady-TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mazzady-Task-Mazzady-TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Mazzady-Task-Mazzady-TaskUITests/Pods-Mazzady-Task-Mazzady-TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84DED53F8CDEF0FEB5D12690 /* Pods-Mazzady-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mazzady-Task.release.xcconfig"; path = "Target Support Files/Pods-Mazzady-Task/Pods-Mazzady-Task.release.xcconfig"; sourceTree = "<group>"; };
+		89BC47BC6B1D5B81DE3ADF66 /* Pods-Mazzady-TaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mazzady-TaskTests.release.xcconfig"; path = "Target Support Files/Pods-Mazzady-TaskTests/Pods-Mazzady-TaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6515A682DBA762E00747A93 /* Mazzady-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mazzady-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6515A7E2DBA763200747A93 /* Mazzady-TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mazzady-TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6515A882DBA763200747A93 /* Mazzady-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mazzady-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D6878918DC8E3D8D46E386 /* Pods_Mazzady_Task_Mazzady_TaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mazzady_Task_Mazzady_TaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A8417690D91B6145D23D39 /* Pods_Mazzady_TaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mazzady_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED558CBB95696B9C5108245 /* Pods_Mazzady_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mazzady_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A6515A902DBA763200747A93 /* Exceptions for "Mazzady-Task" folder in "Mazzady-Task" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A6515A672DBA762E00747A93 /* Mazzady-Task */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A6515A6A2DBA762E00747A93 /* Mazzady-Task */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A6515A902DBA763200747A93 /* Exceptions for "Mazzady-Task" folder in "Mazzady-Task" target */,
+			);
+			path = "Mazzady-Task";
+			sourceTree = "<group>";
+		};
+		A6515A812DBA763200747A93 /* Mazzady-TaskTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Mazzady-TaskTests";
+			sourceTree = "<group>";
+		};
+		A6515A8B2DBA763200747A93 /* Mazzady-TaskUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Mazzady-TaskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6515A652DBA762E00747A93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF8E14C5A6122495E8960B0 /* Pods_Mazzady_Task.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6515A7B2DBA763200747A93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705680E9FF313A33981241D2 /* Pods_Mazzady_TaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6515A852DBA763200747A93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38DA5C167B1E82F3E6FBA78 /* Pods_Mazzady_Task_Mazzady_TaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15A576FECF99BC5301F84953 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54E1D60EDA2682EAB5F570FD /* Pods-Mazzady-Task.debug.xcconfig */,
+				84DED53F8CDEF0FEB5D12690 /* Pods-Mazzady-Task.release.xcconfig */,
+				41DD5A89AAC557DF5F39723A /* Pods-Mazzady-Task-Mazzady-TaskUITests.debug.xcconfig */,
+				6E8F5D185A7FD956B3BFD535 /* Pods-Mazzady-Task-Mazzady-TaskUITests.release.xcconfig */,
+				56C3F8498C9B479EDB15A569 /* Pods-Mazzady-TaskTests.debug.xcconfig */,
+				89BC47BC6B1D5B81DE3ADF66 /* Pods-Mazzady-TaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A6515A5F2DBA762E00747A93 = {
+			isa = PBXGroup;
+			children = (
+				A6515A6A2DBA762E00747A93 /* Mazzady-Task */,
+				A6515A812DBA763200747A93 /* Mazzady-TaskTests */,
+				A6515A8B2DBA763200747A93 /* Mazzady-TaskUITests */,
+				A6515A692DBA762E00747A93 /* Products */,
+				15A576FECF99BC5301F84953 /* Pods */,
+				C75355475B82B4FCB9B8C4CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6515A692DBA762E00747A93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6515A682DBA762E00747A93 /* Mazzady-Task.app */,
+				A6515A7E2DBA763200747A93 /* Mazzady-TaskTests.xctest */,
+				A6515A882DBA763200747A93 /* Mazzady-TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C75355475B82B4FCB9B8C4CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FED558CBB95696B9C5108245 /* Pods_Mazzady_Task.framework */,
+				C1D6878918DC8E3D8D46E386 /* Pods_Mazzady_Task_Mazzady_TaskUITests.framework */,
+				E3A8417690D91B6145D23D39 /* Pods_Mazzady_TaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6515A672DBA762E00747A93 /* Mazzady-Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6515A912DBA763200747A93 /* Build configuration list for PBXNativeTarget "Mazzady-Task" */;
+			buildPhases = (
+				D4097339D2DE43B20436D037 /* [CP] Check Pods Manifest.lock */,
+				A6515A642DBA762E00747A93 /* Sources */,
+				A6515A652DBA762E00747A93 /* Frameworks */,
+				A6515A662DBA762E00747A93 /* Resources */,
+				FC652E700E76197D441F33EC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A6515A6A2DBA762E00747A93 /* Mazzady-Task */,
+			);
+			name = "Mazzady-Task";
+			productName = "Mazzady-Task";
+			productReference = A6515A682DBA762E00747A93 /* Mazzady-Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6515A7D2DBA763200747A93 /* Mazzady-TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6515A962DBA763200747A93 /* Build configuration list for PBXNativeTarget "Mazzady-TaskTests" */;
+			buildPhases = (
+				394867E6431F1B6CAC5A712A /* [CP] Check Pods Manifest.lock */,
+				A6515A7A2DBA763200747A93 /* Sources */,
+				A6515A7B2DBA763200747A93 /* Frameworks */,
+				A6515A7C2DBA763200747A93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6515A802DBA763200747A93 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A6515A812DBA763200747A93 /* Mazzady-TaskTests */,
+			);
+			name = "Mazzady-TaskTests";
+			productName = "Mazzady-TaskTests";
+			productReference = A6515A7E2DBA763200747A93 /* Mazzady-TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6515A872DBA763200747A93 /* Mazzady-TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6515A992DBA763200747A93 /* Build configuration list for PBXNativeTarget "Mazzady-TaskUITests" */;
+			buildPhases = (
+				C6584E4C54C2A05F8849CAA8 /* [CP] Check Pods Manifest.lock */,
+				A6515A842DBA763200747A93 /* Sources */,
+				A6515A852DBA763200747A93 /* Frameworks */,
+				A6515A862DBA763200747A93 /* Resources */,
+				A2336C661E3C48482B5C01E6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6515A8A2DBA763200747A93 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A6515A8B2DBA763200747A93 /* Mazzady-TaskUITests */,
+			);
+			name = "Mazzady-TaskUITests";
+			productName = "Mazzady-TaskUITests";
+			productReference = A6515A882DBA763200747A93 /* Mazzady-TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6515A602DBA762E00747A93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A6515A672DBA762E00747A93 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					A6515A7D2DBA763200747A93 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A6515A672DBA762E00747A93;
+					};
+					A6515A872DBA763200747A93 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A6515A672DBA762E00747A93;
+					};
+				};
+			};
+			buildConfigurationList = A6515A632DBA762E00747A93 /* Build configuration list for PBXProject "Mazzady-Task" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = A6515A5F2DBA762E00747A93;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A6515A692DBA762E00747A93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6515A672DBA762E00747A93 /* Mazzady-Task */,
+				A6515A7D2DBA763200747A93 /* Mazzady-TaskTests */,
+				A6515A872DBA763200747A93 /* Mazzady-TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6515A662DBA762E00747A93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6515A7C2DBA763200747A93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6515A862DBA763200747A93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		394867E6431F1B6CAC5A712A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mazzady-TaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2336C661E3C48482B5C01E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mazzady-Task-Mazzady-TaskUITests/Pods-Mazzady-Task-Mazzady-TaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mazzady-Task-Mazzady-TaskUITests/Pods-Mazzady-Task-Mazzady-TaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mazzady-Task-Mazzady-TaskUITests/Pods-Mazzady-Task-Mazzady-TaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6584E4C54C2A05F8849CAA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mazzady-Task-Mazzady-TaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4097339D2DE43B20436D037 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mazzady-Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC652E700E76197D441F33EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mazzady-Task/Pods-Mazzady-Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mazzady-Task/Pods-Mazzady-Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mazzady-Task/Pods-Mazzady-Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6515A642DBA762E00747A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6515A7A2DBA763200747A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6515A842DBA763200747A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6515A802DBA763200747A93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6515A672DBA762E00747A93 /* Mazzady-Task */;
+			targetProxy = A6515A7F2DBA763200747A93 /* PBXContainerItemProxy */;
+		};
+		A6515A8A2DBA763200747A93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6515A672DBA762E00747A93 /* Mazzady-Task */;
+			targetProxy = A6515A892DBA763200747A93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6515A922DBA763200747A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E1D60EDA2682EAB5F570FD /* Pods-Mazzady-Task.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYSHQF8M2F;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mazzady-Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fahd-Cloud.Mazzady-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6515A932DBA763200747A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84DED53F8CDEF0FEB5D12690 /* Pods-Mazzady-Task.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYSHQF8M2F;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mazzady-Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fahd-Cloud.Mazzady-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6515A942DBA763200747A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6515A952DBA763200747A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6515A972DBA763200747A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C3F8498C9B479EDB15A569 /* Pods-Mazzady-TaskTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYSHQF8M2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fahd-Cloud.Mazzady-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mazzady-Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mazzady-Task";
+			};
+			name = Debug;
+		};
+		A6515A982DBA763200747A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89BC47BC6B1D5B81DE3ADF66 /* Pods-Mazzady-TaskTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYSHQF8M2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fahd-Cloud.Mazzady-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mazzady-Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mazzady-Task";
+			};
+			name = Release;
+		};
+		A6515A9A2DBA763200747A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41DD5A89AAC557DF5F39723A /* Pods-Mazzady-Task-Mazzady-TaskUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYSHQF8M2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fahd-Cloud.Mazzady-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mazzady-Task";
+			};
+			name = Debug;
+		};
+		A6515A9B2DBA763200747A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E8F5D185A7FD956B3BFD535 /* Pods-Mazzady-Task-Mazzady-TaskUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RYSHQF8M2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fahd-Cloud.Mazzady-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mazzady-Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6515A632DBA762E00747A93 /* Build configuration list for PBXProject "Mazzady-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6515A942DBA763200747A93 /* Debug */,
+				A6515A952DBA763200747A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6515A912DBA763200747A93 /* Build configuration list for PBXNativeTarget "Mazzady-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6515A922DBA763200747A93 /* Debug */,
+				A6515A932DBA763200747A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6515A962DBA763200747A93 /* Build configuration list for PBXNativeTarget "Mazzady-TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6515A972DBA763200747A93 /* Debug */,
+				A6515A982DBA763200747A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6515A992DBA763200747A93 /* Build configuration list for PBXNativeTarget "Mazzady-TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6515A9A2DBA763200747A93 /* Debug */,
+				A6515A9B2DBA763200747A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6515A602DBA762E00747A93 /* Project object */;
+}

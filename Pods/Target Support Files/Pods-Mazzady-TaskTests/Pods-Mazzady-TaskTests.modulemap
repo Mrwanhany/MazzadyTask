@@ -1,0 +1,6 @@
+framework module Pods_Mazzady_TaskTests {
+  umbrella header "Pods-Mazzady-TaskTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
